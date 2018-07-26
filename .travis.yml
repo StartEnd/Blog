@@ -27,6 +27,7 @@ before_install:
   # - npm install hexo-cli -g  #安装hexo及插件
   # - npm update
   # - npm install
+  - rm -rf ./source/_posts/*
   - mv -f ../Blog ./source/_posts/
   - mv -f ./source/_posts/Blog/schedule/*		./source/schedule/
   # - mv -f themes/next-reloaded themes/next-reloaded_back
