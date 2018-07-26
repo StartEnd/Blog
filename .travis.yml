@@ -14,19 +14,20 @@ cache:
   yarn: true
   directories:
     - node_modules
+	- $HOME/.npm
 
 before_install: 
   - git config user.name "START_END"  #修改name
   - git config user.email "858965877@qq.com"  #修改email
   # 由于使用了yarn，所以需要下载，如不用yarn这两行可以删除
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH=$HOME/.yarn/bin:$PATH
+  # - curl -o- -L https://yarnpkg.com/install.sh | bash
+  # - export PATH=$HOME/.yarn/bin:$PATH
   - cd ..
   - git clone https://github.com/StartEnd/Hexo.git
   - cd Hexo
-  #- npm install hexo-cli -g  #安装hexo及插件
-  #- npm update
-  #- npm install
+  # - npm install hexo-cli -g  #安装hexo及插件
+  # - npm update
+  # - npm install
   - cp -fr ../Blog/* ./source/_posts
   - mv -f ./source/_posts/schedule/*		./source/schedule
   - mv themes/next-reloaded themes/next-reloaded_back
@@ -37,8 +38,8 @@ before_install:
 
 install:
     # 不用yarn的话这里改成 npm i 即可
-  - yarn
-  #- npm install 
+  # - yarn
+  - npm install 
 script:
   - hexo clean  #清除
   - hexo generate  #生成
