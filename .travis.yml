@@ -27,7 +27,7 @@ before_install:
   # - npm install hexo-cli -g  #安装hexo及插件
   # - npm update
   # - npm install
-  - mv -f ../Blog/* ./source/_posts
+  - mv -f ../Blog/* ./source/_posts/
   - mv -f ./source/_posts/schedule		./source/
   - mv -f themes/next-reloaded themes/next-reloaded_back
   - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
