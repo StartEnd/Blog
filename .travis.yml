@@ -29,9 +29,8 @@ before_install:
   - cp -fr ../Blog/* ./source/_posts
   - mv themes/next-reloaded themes/next-reloaded_back
   - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
-  - cp -fr themes/next-reloaded_back/.config.yml  themes/next-reloaded/.config.yml
+  - cp -fr themes/next-reloaded_back/_config.yml  themes/next-reloaded/_config.yml
   - cp -fr themes/next-reloaded_back/layout/_partials/footer.swig  themes/next-reloaded/layout/_partials/footer.swig
-  - cp -fr themes/next-reloaded_back/layout/_macro/sidebar.swig   themes/next-reloaded/layout/_macro/sidebar.swig
   
 
 install:
