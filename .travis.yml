@@ -25,7 +25,7 @@ before_install:
   - git clone https://github.com/StartEnd/Hexo.git
   - cd Hexo
   - npm install
-  - cp ../Blog/* ./source/_posts
+  - cp -fr ../Blog/* ./source/_posts
   
 
 install:
