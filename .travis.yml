@@ -29,12 +29,12 @@ before_install:
   # - npm install
   - mv -f ../Blog ./source/_posts/
   - mv -f ./source/_posts/Blog/schedule/*		./source/schedule/
-  - mv -f themes/next-reloaded themes/next-reloaded_back
-  - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
-  - mv themes/next-reloaded_back/source/lib/reading_progress themes/next-reloaded/source/lib/
-  - mv themes/next-reloaded_back/source/lib/theme-next-pace themes/next-reloaded/source/lib/
-  - mv -f themes/next-reloaded_back/_config.yml  themes/next-reloaded/_config.yml
-  - mv -f themes/next-reloaded_back/layout/_partials/footer.swig  themes/next-reloaded/layout/_partials/footer.swig
+  # - mv -f themes/next-reloaded themes/next-reloaded_back
+  # - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
+  # - mv themes/next-reloaded_back/source/lib/reading_progress themes/next-reloaded/source/lib/
+  # - mv themes/next-reloaded_back/source/lib/theme-next-pace themes/next-reloaded/source/lib/
+  # - mv -f themes/next-reloaded_back/_config.yml  themes/next-reloaded/_config.yml
+  # - mv -f themes/next-reloaded_back/layout/_partials/footer.swig  themes/next-reloaded/layout/_partials/footer.swig
   
 
 install:
