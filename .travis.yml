@@ -33,7 +33,6 @@ before_install:
   - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
   - cp -fr themes/next-reloaded_back/_config.yml  themes/next-reloaded/_config.yml
   - cp -fr themes/next-reloaded_back/layout/_partials/footer.swig  themes/next-reloaded/layout/_partials/footer.swig
-  - cp -fr 
   
 
 install:
