@@ -53,7 +53,7 @@ after_script:
   - git add --all .
   - git commit -m "Travis CI Auto Builder"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
-  - git push --force --quiet "https://${CO_TOKEN}@${CO_REF}" master:master 
+  - git push --force --quiet "https://Start_End:${CO_TOKEN}@${CO_REF}" master:master 
 env:
  global:
    - GH_REF: github.com/StartEnd/StartEnd.github.io.git  #设置GH_REF，注意更改yourname
