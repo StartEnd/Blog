@@ -29,7 +29,7 @@ before_install:
   # - npm install
   - rm -rf ./source/_posts/*
   - cp -rf ../Blog/Body/* ./source/_posts/
-  - mv -f ../Blog/Body/schedule/*		./source/schedule/
+  - cp -rf ../Blog/Body/schedule/*		./source/schedule/
   # - mv -f themes/next-reloaded themes/next-reloaded_back
   # - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
   # - mv themes/next-reloaded_back/source/lib/reading_progress themes/next-reloaded/source/lib/
