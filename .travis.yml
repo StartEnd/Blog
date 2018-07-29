@@ -48,6 +48,7 @@ script:
 
 after_script:
   - cp CNAME ./public
+  - cp ./seo/*	./public
   - cd ./public
   - git init
   - git add --all .
