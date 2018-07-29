@@ -1,7 +1,5 @@
 ---
-title: Python 迭代器,生成器
-date: 2018-5-15
-updated: 2018-5-18
+title: Python 迭代器
 categories:
 - python
 tags:
