@@ -21,7 +21,7 @@ tags:
 > 在其他语言中，for 与 while 都用于循环，而 Python 则没有类似其他语言的 for 循环，只有 while 来实现循环。在 Python 中， for 用来实现迭代，它的结构是 for ... in ...，其在迭代时会产生迭代器，实际是将可迭代对象转换成迭代器，再重复调用 next() 方法实现的。
 
 在了解Python的数据结构时，容器(container)、可迭代对象(iterable)、迭代器(iterator)、生成器(generator)、列表/集合/字典推导式(list,set,dict comprehension)众多概念参杂在一起，难免让初学者一头雾水，我将用一篇文章试图将这些概念以及它们之间的关系捋清楚。
-![](http://pizisong.qiniudn.com/2018-07-20-15320518011493.png?imageView2/2/h/640)
+![](http://pizisong.qiniudn.com/2018-07-20-15320518011493.png?imageView2/2/h/320)
 
 
 ## 容器(container)
