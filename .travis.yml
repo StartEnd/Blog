@@ -11,11 +11,11 @@ branches:
     - master
 
 cache:
+  bundler: true
   timeout: 30
   # apt: true
   # yarn: true
   directories:
-    - /home/travis/.rvm/
     - node_modules
 
 before_install: 
