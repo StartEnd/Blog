@@ -11,12 +11,12 @@ branches:
     - master
 
 cache:
+  timeout: 30
   # apt: true
   # yarn: true
   directories:
     - /home/travis/.rvm/
     - node_modules
-	- /home/travis/hexo-generator-amp-cached.json
 
 before_install: 
   - git config user.name "START_END"  #修改name
