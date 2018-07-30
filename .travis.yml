@@ -29,7 +29,7 @@ before_install:
   - cd Hexo
   # - npm install hexo-cli -g  #安装hexo及插件
   # - npm update
-  # - npm install
+  # - npm install -g strongloop
   - rm -rf ./source/_posts/*
   - cp -rf ../Blog/Body/*  ./source/_posts/
   - mv -f ../Blog/schedule/index.md		./source/schedule/index.md
