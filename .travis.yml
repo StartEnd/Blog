@@ -31,8 +31,7 @@ before_install:
   # - npm update
   # - npm install -g strongloop
   - rm -rf ./source/_posts/*
-  - cp -rf ../Blog/Body/*  ./source/_posts/
-  - mv -f ../Blog/schedule/index.md		./source/schedule/index.md
+  - mv -f ../Blog/*  ./source/_posts/
   # - mv -f themes/next-reloaded themes/next-reloaded_back
   # - git clone https://github.com/theme-next/hexo-theme-next themes/next-reloaded
   # - mv themes/next-reloaded_back/source/lib/reading_progress themes/next-reloaded/source/lib/
